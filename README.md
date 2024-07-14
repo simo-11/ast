@@ -1,6 +1,7 @@
 # ast
 andoid studio tutorial
 # Installation
+```
 Using android-studio-2024.1.1.12-windows.exe
 Android Studio Koala | 2024.1.1 Patch 1
 Build #AI-241.18034.62.2411.12071903, built on July 11, 2024
@@ -12,6 +13,7 @@ Memory: 2048M
 Cores: 20
 Registry:
   ide.experimental.ui=true
+```
 
 
 ## issues
