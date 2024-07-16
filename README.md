@@ -45,6 +45,12 @@ https://docs.gradle.org/8.5/userguide/command_line_interface.html#sec:command_li
 
 # Notes on examples
 
+## Create your first Android app
+https://developer.android.com/codelabs/basic-android-kotlin-compose-first-app
+
+ * Used API 28 
+
+
 ## Wifi Rtt Scan
 https://github.com/android/connectivity-samples/tree/main/WifiRttScan -> C:\Users\simon\AndroidStudioProjects\WifiRttScan
 
