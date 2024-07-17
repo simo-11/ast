@@ -47,8 +47,11 @@ https://docs.gradle.org/8.5/userguide/command_line_interface.html#sec:command_li
 
 ## Create your first Android app
 https://developer.android.com/codelabs/basic-android-kotlin-compose-first-app
+ * Greeting Card
+ * Used API 28
+ * com.simon.creetingcard
 
- * Used API 28 
+Debugging over Wifi works well.
 
 
 ## Wifi Rtt Scan
