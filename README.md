@@ -53,6 +53,8 @@ https://developer.android.com/codelabs/basic-android-kotlin-compose-first-app
 
 Debugging over USB and Wifi work well.
 
+## Converting to Kotlin
+https://developer.android.com/codelabs/java-to-kotlin
 
 ## Wifi Rtt Scan
 https://github.com/android/connectivity-samples/tree/main/WifiRttScan -> C:\Users\simon\AndroidStudioProjects\WifiRttScan
