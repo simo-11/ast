@@ -51,7 +51,7 @@ https://developer.android.com/codelabs/basic-android-kotlin-compose-first-app
  * Used API 28
  * com.simon.creetingcard
 
-Debugging over Wifi works well.
+Debugging over USB and Wifi work well.
 
 
 ## Wifi Rtt Scan
