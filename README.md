@@ -56,6 +56,8 @@ Debugging over USB and Wifi work well.
 ## Converting to Kotlin
 https://developer.android.com/codelabs/java-to-kotlin
 
+ ## https://developer.android.com/topic/performance/reduce-apk-size
+
 ## Wifi Rtt Scan
 https://github.com/android/connectivity-samples/tree/main/WifiRttScan -> C:\Users\simon\AndroidStudioProjects\WifiRttScan
 
