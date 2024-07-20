@@ -15,8 +15,13 @@ Registry:
   ide.experimental.ui=true
 ```
 
+# API levels vs Android version
+e.g. https://apilevels.com/
 
-## issues
+# Updates
+Help/Check for updates
+
+# issues
 
 ### Running Intel® HAXM installer
 Intel HAXM installation failed!
@@ -56,10 +61,32 @@ Debugging over USB and Wifi work well.
 ## Converting to Kotlin
 https://developer.android.com/codelabs/java-to-kotlin
 
- ## https://developer.android.com/topic/performance/reduce-apk-size
+## https://developer.android.com/topic/performance/reduce-apk-size
 
 ## Wifi Rtt Scan
 https://github.com/android/connectivity-samples/tree/main/WifiRttScan -> C:\Users\simon\AndroidStudioProjects\WifiRttScan
+
+Changes based on build errors ```C:\Users\simon\AndroidStudioProjects\WifiRttScan> .\gradlew.bat --warning-mode all clean build```
+
+build.gradle
+ * buildscript/dependencies/classpath 'com.android.tools.build:gradle:8.3.2'
+ * dependencies
+```
+    implementation 'androidx.appcompat:appcompat:1.0.2'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'com.google.android.material:material:1.12.0'
+```
+ * android/namespace "com.example.android.wifirttscan"
+ * compileSdkVersion removed
+ * minSdkVersion 28
+ * targetSdkVersion 35 - Tools / Android SDK Upgrade Assistant
+ * android/lint - see reports/lint-results
+```
+          baseline = file("lint-baseline.xml")
+WifiRttScan> .\gradlew.bat updateLintBaseline
+```
+
+AccessPointRangingResultsActivity.java, .. based on lint report.
 
 ### Defender 
 ```
